@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actvidad</title>
+  </head>
+  <body>
+    <h1>Productos en ventas</h1>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <th>producto</th>
+        <th>cantidad</th>
+        <th>precio</th>
+      </tr>
+      <tr>
+        <td>Television</td>
+        <td>1</td>
+        <td>399000</td>
+      </tr>
+      <tr>
+        <td>Microondas</td>
+        <td>2</td>
+        <td>560000</td>
+      </tr>
+      <tr>
+        <td>Celular</td>
+        <td>1</td>
+        <td>280000</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <h1>Usuarios que compraron</h1>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <th>nombre</th>
+        <th>correo electronico</th>
+        <th>Fecha de nacimiento</th>
+        <th>Comentario</th>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        >
+      </tr>
+    </table>
+    <br /><br />
+
+    <form action="/submit" method="post">
+      <label for="Nombre">Nombre de usuario:</label><br />
+      <input type="text" name="Nombre" /><br /><br />
+
+      <label for="Contraseña">Contraseña:</label><br />
+      <input type="password" name="Contraseña" /><br /><br />
+
+      <label for="email">Correo Electrónico:</label><br />
+      <input type="email" name="email" /><br /><br />
+
+      <label for="Nacimiento">Fecha de Nacimiento:</label><br />
+      <input type="date" name="Nacimiento" /><br /><br />
+
+      <label for="comentario">Ingrese si quiere dejar algun comentario: </label
+      ><br />
+      <textarea name="comentario" cols="30" rows="10">
+Ingrese su comentario</textarea
+      ><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
